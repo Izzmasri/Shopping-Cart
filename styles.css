@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #1A1A1A !important;
+    margin: 0;
+    padding: 0;
+}
+.button-container {
+    display: flex;
+    margin: 10px auto 0 auto;
+    background-color: rgba(245, 73, 144);
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px,
+    rgba(245, 73, 144, 0.5) 5px 10px 15px;
+}
+
+.button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.icon {
+    font-size: 20px;
+}
+#item-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+.item-cart{
+    padding: 10px;
+    color:#fff;
+
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    background-color: rgba(245, 73, 144);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px,
+    rgba(245, 73, 144, 0.5) 5px 10px 15px;
+}
+.image-cart{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px,
+    rgba(245, 73, 144, 0.5) 5px 10px 15px;
+}
+.cart-btn{
+font-size: 15px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px,
+    rgba(245, 73, 144, 0.5) 5px 10px 15px;
+    position: relative;
+top: -10px;
+}
+hr{
+    color: black;
+
+}
